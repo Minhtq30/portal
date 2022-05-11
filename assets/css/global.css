@@ -1,0 +1,48 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@100;400&display=swap");
+
+:root {
+  --primaryColor: #039049;
+  --primaryColor23: #025623;
+  --primaryColor4a: #00904a;
+  --whiteColor: #ffffff;
+  --grayColor: #f4f4f4;
+  --grayColorF9: #f9f9f9;
+  --colorGlobal: #039049;
+}
+
+::-webkit-scrollbar-track {
+  border-radius: 8px;
+  background-color: #e6e6e6;
+}
+
+::-webkit-scrollbar {
+  width: 8px;
+  height: 8px;
+  background-color: #e6e6e6;
+}
+
+::-webkit-scrollbar-thumb {
+  border-radius: 8px;
+  background-color: #bdbdbd;
+}
+
+body {
+  color: #000;
+}
+.flex-center {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.text-ellipsis {
+  overflow: hidden;
+  display: -webkit-box;
+  text-overflow: ellipsis;
+  -webkit-line-clamp: 1;
+  -webkit-box-orient: vertical;
+  width: 100%;
+  max-height: 36px;
+}
+a span:hover {
+  color: var(--primaryColor) !important;
+}

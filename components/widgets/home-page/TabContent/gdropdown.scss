@@ -1,0 +1,22 @@
+@mixin gropdown-select-pick-address {
+  .g-dropdown {
+    height: 35px !important;
+    .g-dropdown__input {
+      font-size: 16px;
+      color: #000;
+      line-height: 35px;
+      border-radius: 9999px;
+      .text-ellipsis {
+        max-height: unset;
+      }
+    }
+    .g-dropdown__content {
+      top: 30px;
+      width: 100%;
+      .text-empty {
+        font-size: 16px;
+        line-height: 1.5rem;
+      }
+    }
+  }
+}
